@@ -25,7 +25,7 @@ import java.util.HashMap;
 
 public class MiniAppsConfig {
      public enum MiniApps {
-        EnWalmartThankyouMiniApp("EnWalmartThankyouMiniApp", EnWalmartThankyouMiniAppActivity.class),
+        ErnWalmartCartMiniApp("ErnWalmartCartMiniApp", ErnWalmartCartMiniAppActivity.class),
         ;
 
         private final String miniAppName;
@@ -48,6 +48,6 @@ public class MiniAppsConfig {
     }
 
     public static final HashMap<String, Class> MINIAPP_ACTIVITIES = new HashMap<String, Class>() {{
-        put(MiniApps.EnWalmartThankyouMiniApp.getName(), MiniApps.EnWalmartThankyouMiniApp.getActivityClass());
+        put(MiniApps.ErnWalmartCartMiniApp.getName(), MiniApps.ErnWalmartCartMiniApp.getActivityClass());
     }};
 }
